@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  // background-color: green;
+  height: 100%;
+  flex-direction: column;
+  .login-header {
+    // background-color: red;
+    flex: 0.1 1 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 35px;
+    color: #121212;
+    font-weight: 800;
+  }
+  .LoginForm {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    .field {
+      width: 100%;
+      flex: 1;
+      display: flex;
+      // background-color: green;
+      justify-content: center;
+    }
+  }
+
+}
+
+.Login-paper {
+  border-radius: 12px;
+  padding: 10px;
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+}

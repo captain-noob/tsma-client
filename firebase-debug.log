@@ -1,0 +1,58 @@
+[debug] [2020-08-30T16:37:27.918Z] ----------------------------------------------------------------------
+[debug] [2020-08-30T16:37:27.920Z] Command:       /home/shashi/.nvm/versions/node/v10.15.3/bin/node /home/shashi/.nvm/versions/node/v10.15.3/bin/firebase deploy
+[debug] [2020-08-30T16:37:27.920Z] CLI Version:   8.9.2
+[debug] [2020-08-30T16:37:27.920Z] Platform:      linux
+[debug] [2020-08-30T16:37:27.920Z] Node Version:  v10.15.3
+[debug] [2020-08-30T16:37:27.921Z] Time:          Sun Aug 30 2020 22:07:27 GMT+0530 (India Standard Time)
+[debug] [2020-08-30T16:37:27.921Z] ----------------------------------------------------------------------
+[debug] [2020-08-30T16:37:27.921Z] 
+[debug] [2020-08-30T16:37:27.926Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-30T16:37:27.927Z] > authorizing via signed-in user
+[debug] [2020-08-30T16:37:27.927Z] [iam] checking project tsma-901d6 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-30T16:37:27.931Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tsma-901d6:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-08-30T16:37:29.387Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 30 Aug 2020 16:37:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1143","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-30T16:37:29.388Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tsma-901d6  
+ 
+[debug] [2020-08-30T16:37:59.413Z] Server Error. ETIMEDOUT
+[debug] [2020-08-30T16:37:59.415Z] FirebaseError: Server Error. ETIMEDOUT
+    at Request._callback (/home/shashi/.nvm/versions/node/v10.15.3/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/home/shashi/.nvm/versions/node/v10.15.3/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Timeout.<anonymous> (/home/shashi/.nvm/versions/node/v10.15.3/lib/node_modules/firebase-tools/node_modules/request/request.js:851:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[error] 
+[error] Error: Failed to get Firebase project tsma-901d6. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-08-30T16:38:25.109Z] ----------------------------------------------------------------------
+[debug] [2020-08-30T16:38:25.110Z] Command:       /home/shashi/.nvm/versions/node/v10.15.3/bin/node /home/shashi/.nvm/versions/node/v10.15.3/bin/firebase deploy
+[debug] [2020-08-30T16:38:25.111Z] CLI Version:   8.9.2
+[debug] [2020-08-30T16:38:25.111Z] Platform:      linux
+[debug] [2020-08-30T16:38:25.111Z] Node Version:  v10.15.3
+[debug] [2020-08-30T16:38:25.111Z] Time:          Sun Aug 30 2020 22:08:25 GMT+0530 (India Standard Time)
+[debug] [2020-08-30T16:38:25.111Z] ----------------------------------------------------------------------
+[debug] [2020-08-30T16:38:25.111Z] 
+[debug] [2020-08-30T16:38:25.117Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-30T16:38:25.117Z] > authorizing via signed-in user
+[debug] [2020-08-30T16:38:25.117Z] [iam] checking project tsma-901d6 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-30T16:38:25.120Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tsma-901d6:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-08-30T16:38:26.528Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 30 Aug 2020 16:38:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1208","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-30T16:38:26.535Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tsma-901d6  
+ 
+[debug] [2020-08-30T16:38:56.557Z] Server Error. ETIMEDOUT
+[debug] [2020-08-30T16:38:56.562Z] FirebaseError: Server Error. ETIMEDOUT
+    at Request._callback (/home/shashi/.nvm/versions/node/v10.15.3/lib/node_modules/firebase-tools/lib/api.js:32:31)
+    at self.callback (/home/shashi/.nvm/versions/node/v10.15.3/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Timeout.<anonymous> (/home/shashi/.nvm/versions/node/v10.15.3/lib/node_modules/firebase-tools/node_modules/request/request.js:851:16)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+[error] 
+[error] Error: Failed to get Firebase project tsma-901d6. Please make sure the project exists and your account has permission to access it.
